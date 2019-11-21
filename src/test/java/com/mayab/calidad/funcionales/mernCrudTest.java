@@ -54,7 +54,7 @@ public class mernCrudTest {
 		  element = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/form/button"));
 		  element.click();
 		  
-		  pause(5000);
+		  pause(4000);
 		  WebElement element2 = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/form/div[5]/div/p"));
 		  String cadena = element2.getText();	
 		  assertEquals("Email must be valid.", cadena);
@@ -79,7 +79,7 @@ public class mernCrudTest {
 		  element = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/form/button"));
 		  element.click();
 		  
-		  pause(5000);
+		  pause(4000);
 		  WebElement element2 = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/form/div[4]/div/p"));
 		  String cadena = element2.getText();
 		  assertEquals("Successfully added!", cadena);
@@ -96,7 +96,7 @@ public class mernCrudTest {
 		  element = driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/button[1]"));
 		  pause(2000);
 		  element.click();		  
-		  pause(5000);
+		  pause(4000);
 		  
 		  System.out.println(cadena3);
 
@@ -133,7 +133,7 @@ public class mernCrudTest {
 		  element = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/form/button"));
 		  element.click();
 		  
-		  pause(5000);
+		  pause(4000);
 		  WebElement element2 = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/form/div[4]/div/p"));
 		  String cadena = element2.getText();
 		  assertEquals("Successfully updated!", cadena);
@@ -151,7 +151,7 @@ public class mernCrudTest {
 		  element = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/form/button"));
 		  element.click();
 		  
-		  pause(5000);
+		  pause(4000);
 		  WebElement element2 = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/form/div[5]/div/p"));
 		  String cadena = element2.getText();
 		  assertEquals("Email must be valid.", cadena);
